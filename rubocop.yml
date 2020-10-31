@@ -1,0 +1,62 @@
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'spec/**/*'
+    - 'node_modules/**/*'
+  TargetRubyVersion:                  2.6.6
+Layout/LineLength:
+  Max:                                140
+Style/Documentation:
+  Enabled:                            false
+Layout/ParameterAlignment:
+  EnforcedStyle:                      with_fixed_indentation
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle:                      indented
+Layout/MultilineHashBraceLayout:
+  Enabled:                            false
+Layout/EmptyLineAfterGuardClause:
+  Enabled:                            false
+Style/ClassAndModuleChildren:
+  Enabled:                            false
+Style/FrozenStringLiteralComment:
+  Enabled:                            false
+Style/EmptyMethod:
+  EnforcedStyle:                      expanded
+Metrics/MethodLength:
+  Max:                                25
+Metrics/CyclomaticComplexity:
+  Max:                                10
+Metrics/AbcSize:
+  Max:                                40
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled:                            true
+Layout/SpaceAroundMethodCallOperator:
+  Enabled:                            true
+Lint/DeprecatedOpenSSLConstant:
+  Enabled:                            true
+Lint/MixedRegexpCaptureTypes:
+  Enabled:                            true
+Lint/RaiseException:
+  Enabled:                            true
+Lint/StructNewOverride:
+  Enabled:                            true
+Style/ExponentialNotation:
+  Enabled:                            true
+Style/HashEachMethods:
+  Enabled:                            true
+Style/HashTransformKeys:
+  Enabled:                            true
+Style/HashTransformValues:
+  Enabled:                            true
+Style/RedundantFetchBlock:
+  Enabled:                            true
+Style/RedundantRegexpCharacterClass:
+  Enabled:                            true
+Style/RedundantRegexpEscape:
+  Enabled:                            true
+Style/SlicingWithRange:
+  Enabled:                            true
